@@ -76,7 +76,7 @@ export default class UI {
         
     }
         static GetAnswers() {
-        let LaRespuesta = document.querySelectorAll(".form-check-input");
+        let LaRespuesta = document.querySelectorAll(".form-check-input:checked");
         LaRespuesta.forEach((question) => {
             if (question.checked) {
                 question.checked = false 
