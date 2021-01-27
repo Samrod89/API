@@ -10,6 +10,7 @@ form.addEventListener('submit', (event) => {
     Request.getQuestions()
         .then(response => response.json())
         .then(data => UI.printQuestions(data.results))
+
 });
 
 Request.getCategories()  
@@ -18,10 +19,9 @@ Request.getCategories()
 
 
 
-
 const form2 = document.querySelector('#respuesta-del-usuario')
 
 form2.addEventListener('submit', (event) => {
     event.preventDefault();
-    UI.GetAnswers()
+      UI.GetAnswers()
 })

@@ -15,3 +15,11 @@ body {
 div .shadow-card {
     color: white;
 }
+
+.text-color {
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
